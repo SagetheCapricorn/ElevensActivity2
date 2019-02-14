@@ -43,6 +43,10 @@ public class Deck {
      */
     public boolean isEmpty() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        if( size == 0){
+            return true;
+        }
+        return false;
     }
 
     /**
